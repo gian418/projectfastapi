@@ -1,0 +1,14 @@
+- em ambientes linux
+python3 -m venv venv
+source venv/bin/activate
+
+- instalar libs
+pip3 install fastapi uvicorn sqlalchemy 'passlib[bcrypt]' 'python-jose[cryptography]' python-dotenv python-multipart
+para rodar o nosso codigo executar uvicorn main:app --reload
+
+-- extensoes
+autopep8
+-> settints -> Editor: DEfault Formatter -> autopep8
+-> settings -> Files: Auto Save -> afterDelay
+-> settings -> Files: Auto Save Delay -> 10000
+-> settings -> Editor: Format on Save -> Habilitar
